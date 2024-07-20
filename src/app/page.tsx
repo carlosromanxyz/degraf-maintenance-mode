@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className="flex h-screen items-center justify-center">
       <div className={'container px-4 lg:mx-auto'}>
-        <figure className={'flex justify-center mb-15'}>
+        <figure className={'flex justify-center mb-16'}>
           <Image
             src={'/assets/images/logo.png'}
             alt="Logo de Degraf"
