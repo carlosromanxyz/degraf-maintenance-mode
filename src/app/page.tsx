@@ -5,8 +5,8 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex h-screen items-center justify-between">
-      <div className={'mx-auto lg:container lg:px-4 lg:mx-auto'}>
+    <main className="flex h-screen items-center justify-center">
+      <div className={'container px-4 lg:mx-auto'}>
         <figure className={'flex justify-center mb-20'}>
           <Image
             src={'/assets/images/logo.png'}
@@ -47,8 +47,8 @@ export default function Home() {
         <h5 className={'text-gray-500 mb-4 text-lg font-bold text-center'}>Visítanos en::</h5>
         <ul className={'flex justify-center'}>
           <li className={'mx-6'}>
-            <a href="https://www.google.com/maps?q=Las+Araucarias+9001,+Quilicura" className={'text-gray-500 flex justify-center flex-column content-center'}>
-              <FontAwesomeIcon icon={faLocationDot} width={'20px'} className={'text-green-900 mr-2'} />
+            <a href="https://www.google.com/maps?q=Las+Araucarias+9001,+Quilicura" className={'text-gray-500 text-center flex items-center lg:items-stretch lg:justify-center flex-col lg:flex-row lg:content-center'}>
+              <FontAwesomeIcon icon={faLocationDot} width={'20px'} className={'text-green-900 mb-2 lg:mr-2'} />
               <span>Las Araucarias Nº 9001, Quilicura Santiago – Chile</span>
             </a>
           </li>
