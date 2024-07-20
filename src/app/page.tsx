@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-stone-200">
-      <div className={'container px-2 mx-auto'}>
-        <figure className={'flex justify-center mb-4'}>
+    <main className="flex h-screen items-center justify-between lg:p-24 bg-stone-200">
+      <div className={'lg:container px-2 lg:mx-auto'}>
+        <figure className={'flex justify-center mb-20'}>
           <Image
             src={'/assets/images/logo.png'}
             alt="Logo de Degraf"
@@ -15,11 +15,11 @@ export default function Home() {
             height={200}
           />
         </figure>
-        <h2 className={'text-2xl text-gray-700 text-center font-bold'}>Sitio en Mantención</h2>
-        <p className={'text-lg text-gray-700 text-center mb-8'}>Sentimos las molestias, en este momento nos encontramos realizando mantención a nuestro sitio web.</p>
+        <h2 className={'text-xl lg:text-2xl text-gray-700 text-center font-bold mb-4'}>Sitio en Mantención</h2>
+        <p className={'text-md lg:text-lg text-gray-700 text-center mb-8'}>Sentimos las molestias, en este momento nos encontramos realizando mantención a nuestro sitio web.</p>
 
         <h5 className={'text-gray-500 mb-4 text-lg font-bold text-center'}>Puedes llamarnos a:</h5>
-        <ul className={'block lg:flex lg:justify-center mb-8'}>
+        <ul className={'flex justify-center mb-8'}>
           <li className={'mx-6'}>
             <a href="tel:+56226238955" className={'text-gray-500 flex justify-start content-center'}>
               <FontAwesomeIcon icon={faPhone} width={'20px'} className={'text-green-900 mr-2'} />
@@ -35,7 +35,7 @@ export default function Home() {
         </ul>
 
         <h5 className={'text-gray-500 mb-4 text-lg font-bold text-center'}>Puedes escribirnos a:</h5>
-        <ul className={'block lg:flex lg:justify-center mb-8'}>
+        <ul className={'flex justify-center mb-8'}>
           <li className={'mx-6'}>
             <a href="mailto:electronicos@degraf.cl" className={'text-gray-500 flex justify-start content-center'}>
               <FontAwesomeIcon icon={faEnvelope} width={'20px'} className={'text-green-900 mr-2'} />
@@ -45,9 +45,9 @@ export default function Home() {
         </ul>
 
         <h5 className={'text-gray-500 mb-4 text-lg font-bold text-center'}>Visítanos en::</h5>
-        <ul className={'block lg:flex lg:justify-center'}>
+        <ul className={'flex justify-center'}>
           <li className={'mx-6'}>
-            <a href="https://www.google.com/maps?q=Las+Araucarias+9001,+Quilicura" className={'text-gray-500 flex justify-start content-center'}>
+            <a href="https://www.google.com/maps?q=Las+Araucarias+9001,+Quilicura" className={'text-gray-500 flex justify-start flex-column content-center'}>
               <FontAwesomeIcon icon={faLocationDot} width={'20px'} className={'text-green-900 mr-2'} />
               <span>Las Araucarias Nº 9001, Quilicura Santiago – Chile</span>
             </a>

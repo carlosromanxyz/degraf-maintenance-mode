@@ -5,10 +5,10 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Degraf",
+  title: "DEGRAF - Sitio en Mantención",
   description: "Sitio en Mantención",
   openGraph: {
-    title: "Degraf",
+    title: "DEGRAF - Sitio en Mantención",
     description: "Sitio en Mantención",
     url: "https://degraf.cl",
     type: "website",
